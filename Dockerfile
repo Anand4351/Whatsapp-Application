@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 
 # Copy the published files from your repository
-COPY ./publish .
+COPY ./net8.0 .
 
 # Expose the port .NET runs on
 EXPOSE 80
